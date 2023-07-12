@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardView renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "white",
+      "borderRadius": 24,
+      "elevation": 10,
+      "flexDirection": "row",
+      "height": 300,
+      "marginVertical": 16.428571428571427,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 8,
+        "width": 8,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 10,
+      "width": "90%",
+    }
+  }
+>
+  <Image
+    resizeMode="contain"
+    source={
+      Object {
+        "uri": undefined,
+      }
+    }
+    style={
+      Object {
+        "backgroundColor": "#EBEBEB",
+        "borderRadius": 20,
+        "height": 240,
+        "marginLeft": 15,
+        "width": 240,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "height": "100%",
+        "width": "60%",
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        Array [
+          Object {
+            "fontSize": 28,
+            "fontWeight": "600",
+          },
+          Object {
+            "marginLeft": 15,
+            "marginTop": 32.857142857142854,
+          },
+          Object {
+            "color": undefined,
+          },
+        ]
+      }
+    />
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "fontSize": 28,
+            "fontWeight": "600",
+          },
+          Object {
+            "marginLeft": 15,
+            "marginTop": 32.857142857142854,
+          },
+          Object {
+            "color": undefined,
+          },
+        ]
+      }
+    />
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#9191A1",
+          "borderRadius": 40,
+          "bottom": 16.428571428571427,
+          "elevation": 5,
+          "height": 82,
+          "justifyContent": "center",
+          "opacity": 1,
+          "position": "absolute",
+          "right": 15,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 8,
+            "width": 8,
+          },
+          "shadowOpacity": 0.6,
+          "shadowRadius": 10,
+          "width": 200,
+        }
+      }
+      testID="submit-button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontSize": 24,
+              "fontWeight": "600",
+            },
+            undefined,
+            Object {
+              "color": "#ffffff",
+            },
+          ]
+        }
+      >
+        Add to Cart
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartScreen renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+  testID="cart-screen"
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Item 1",
+          "price": 10,
+          "qty": 2,
+        },
+        Object {
+          "id": 2,
+          "name": "Item 2",
+          "price": 20,
+          "qty": 1,
+        },
+      ]
+    }
+    extraData={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Item 1",
+          "price": 10,
+          "qty": 2,
+        },
+        Object {
+          "id": 2,
+          "name": "Item 2",
+          "price": 20,
+          "qty": 1,
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "white",
+              "borderRadius": 24,
+              "elevation": 10,
+              "flexDirection": "row",
+              "height": 300,
+              "marginVertical": 16.428571428571427,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 8,
+                "width": 8,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 10,
+              "width": "90%",
+            }
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "uri": undefined,
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EBEBEB",
+                "borderRadius": 20,
+                "height": 240,
+                "marginLeft": 15,
+                "width": 240,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "60%",
+              }
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 28,
+                    "fontWeight": "600",
+                  },
+                  Object {
+                    "marginLeft": 15,
+                    "marginTop": 32.857142857142854,
+                  },
+                  Object {
+                    "color": undefined,
+                  },
+                ]
+              }
+            >
+              Item 1
+            </Text>
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 28,
+                    "fontWeight": "600",
+                  },
+                  Object {
+                    "marginLeft": 15,
+                    "marginTop": 32.857142857142854,
+                  },
+                  Object {
+                    "color": undefined,
+                  },
+                ]
+              }
+            >
+              ₹10.00
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#9191A1",
+                  "borderRadius": 50,
+                  "bottom": 16.428571428571427,
+                  "flexDirection": "row",
+                  "height": 80,
+                  "justifyContent": "space-evenly",
+                  "position": "absolute",
+                  "right": 15,
+                  "width": 200,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": 60,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="decrease-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 32,
+                        "fontWeight": "600",
+                      },
+                      undefined,
+                      Object {
+                        "color": "#ffffff",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+              </View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 32,
+                      "fontWeight": "600",
+                    },
+                    undefined,
+                    Object {
+                      "color": "#ffffff",
+                    },
+                  ]
+                }
+              >
+                2
+              </Text>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": 60,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="increase-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 32,
+                        "fontWeight": "600",
+                      },
+                      undefined,
+                      Object {
+                        "color": "#ffffff",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+              </View>
+            </View>
+            <Text
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 28,
+                    "fontWeight": "600",
+                  },
+                  Array [
+                    Object {
+                      "marginLeft": 15,
+                      "marginTop": 32.857142857142854,
+                    },
+                    Object {
+                      "width": 120,
+                    },
+                  ],
+                  Object {
+                    "color": "#D32F2F",
+                  },
+                ]
+              }
+              testID="delete-button"
+            >
+              Remove
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "white",
+              "borderRadius": 24,
+              "elevation": 10,
+              "flexDirection": "row",
+              "height": 300,
+              "marginVertical": 16.428571428571427,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 8,
+                "width": 8,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 10,
+              "width": "90%",
+            }
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "uri": undefined,
+              }
+            }
+            style={
+              Object {
+                "backgroundColor": "#EBEBEB",
+                "borderRadius": 20,
+                "height": 240,
+                "marginLeft": 15,
+                "width": 240,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "height": "100%",
+                "width": "60%",
+              }
+            }
+          >
+            <Text
+              numberOfLines={2}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 28,
+                    "fontWeight": "600",
+                  },
+                  Object {
+                    "marginLeft": 15,
+                    "marginTop": 32.857142857142854,
+                  },
+                  Object {
+                    "color": undefined,
+                  },
+                ]
+              }
+            >
+              Item 2
+            </Text>
+            <Text
+              numberOfLines={1}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 28,
+                    "fontWeight": "600",
+                  },
+                  Object {
+                    "marginLeft": 15,
+                    "marginTop": 32.857142857142854,
+                  },
+                  Object {
+                    "color": undefined,
+                  },
+                ]
+              }
+            >
+              ₹20.00
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#9191A1",
+                  "borderRadius": 50,
+                  "bottom": 16.428571428571427,
+                  "flexDirection": "row",
+                  "height": 80,
+                  "justifyContent": "space-evenly",
+                  "position": "absolute",
+                  "right": 15,
+                  "width": 200,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": 60,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="decrease-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 32,
+                        "fontWeight": "600",
+                      },
+                      undefined,
+                      Object {
+                        "color": "#ffffff",
+                      },
+                    ]
+                  }
+                >
+                  -
+                </Text>
+              </View>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontSize": 32,
+                      "fontWeight": "600",
+                    },
+                    undefined,
+                    Object {
+                      "color": "#ffffff",
+                    },
+                  ]
+                }
+              >
+                1
+              </Text>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "height": 60,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="increase-button"
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "fontSize": 32,
+                        "fontWeight": "600",
+                      },
+                      undefined,
+                      Object {
+                        "color": "#ffffff",
+                      },
+                    ]
+                  }
+                >
+                  +
+                </Text>
+              </View>
+            </View>
+            <Text
+              onPress={[Function]}
+              style={
+                Array [
+                  Object {
+                    "fontSize": 28,
+                    "fontWeight": "600",
+                  },
+                  Array [
+                    Object {
+                      "marginLeft": 15,
+                      "marginTop": 32.857142857142854,
+                    },
+                    Object {
+                      "width": 120,
+                    },
+                  ],
+                  Object {
+                    "color": "#D32F2F",
+                  },
+                ]
+              }
+              testID="delete-button"
+            >
+              Remove
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 100,
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 32,
+            "fontWeight": "600",
+          },
+          undefined,
+          Object {
+            "color": undefined,
+          },
+        ]
+      }
+    >
+      Total  ₹30.00
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

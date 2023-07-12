@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardScreen renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+  testID="dashboard-screen"
+>
+  <RCTScrollView
+    data={Array []}
+    extraData={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "lightblue",
+        "borderRadius": 50,
+        "bottom": "5%",
+        "flexDirection": "row",
+        "height": 80,
+        "justifyContent": "center",
+        "opacity": 1,
+        "position": "absolute",
+        "right": 40,
+        "width": 160,
+      }
+    }
+    testID="cart-view"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 32,
+            "fontWeight": "600",
+          },
+          undefined,
+          Object {
+            "color": "#D32F2F",
+          },
+        ]
+      }
+    >
+      Cart 2
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

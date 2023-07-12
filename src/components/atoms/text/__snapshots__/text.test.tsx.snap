@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontSize": 32,
+        "fontWeight": "600",
+      },
+      undefined,
+      Object {
+        "color": undefined,
+      },
+    ]
+  }
+/>
+`;
