@@ -4,6 +4,7 @@ export interface ListItemsProps {
   name: string;
   price: number;
   img: string;
+  qty: number;
 }
 
 export interface ShoppingResponse {

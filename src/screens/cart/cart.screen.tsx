@@ -15,7 +15,7 @@ const CartScreen = () => {
     <CardView
       isCartScreen
       itemName={item.name}
-      itemImage={item?.img?.replace('http://', 'https://')} //Replace Used because first item image was giving http://
+      itemImage={item?.img}
       value={item.qty}
       onIncQty={() => onIncQty(item)}
       onDecQty={() => onDecQty(item)}

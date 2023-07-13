@@ -47,7 +47,32 @@ const DashboardScreen = (props: any) => {
 
   const addToCart = useCallback(
     (item: ListItemsProps) => {
-      dispatch(storeShoppingListData([...shoppingList, item]));
+      if (shoppingList?.length > 0) {
+        shoppingList?.map((i: ListItemsProps) => {
+          const tempPrice = Number(i.price) / Number(i.qty);
+          let index = shoppingList?.findIndex(
+            (e: ListItemsProps) => e.id === item.id,
+          );
+          let newArr = [...shoppingList];
+          if (index !== -1) {
+            if (i.id === item.id) {
+              let obj = {
+                ...i,
+                qty: i.qty + 1,
+                price: Number(tempPrice) * Number(i.qty + 1),
+              };
+              if (index !== -1) {
+                newArr[index] = obj;
+              }
+              dispatch(storeShoppingListData(newArr));
+            }
+          } else {
+            dispatch(storeShoppingListData([...shoppingList, item]));
+          }
+        });
+      } else {
+        dispatch(storeShoppingListData([...shoppingList, item]));
+      }
     },
     [dispatch, shoppingList],
   );
